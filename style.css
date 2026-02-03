@@ -1,0 +1,148 @@
+#parent{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: aliceblue;
+}
+body{
+    font-family: calibri;
+}
+#calculator{
+    position: absolute;
+    height: 65%;
+    width: 40%;
+    top: 20%;
+    left: 15%;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+}
+#result{
+    position: absolute;
+    height: 65%;
+    width: 35%;
+    top: 20%;
+    right: 15%;
+    background-color: rgb(7, 44, 44);
+    border-radius: 0px 20px 0px 20px;
+}
+#clear{
+    position: absolute;
+    color: black;
+    top: 9%;
+    right: 20%;
+}
+#mort{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(7, 44, 44);
+}
+#mortinput{
+    display: flex;
+    gap: 20px;
+}
+#term{
+    display: flex;
+    flex-direction: column;
+}
+#rate{
+    display: flex;
+    flex-direction: column;
+}
+/* #years{
+    padding: 10px;
+}
+#percent{
+    padding: 10px;
+} */
+#amount{
+    width: 380px;
+}
+#mortType{
+    display: grid;
+    gap: 20px;
+}
+#repay{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    width: 380px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+#repay:hover{
+    background-color: rgb(241, 219, 92);
+}
+#interest:hover{
+    background-color: rgb(241, 219, 92);
+}
+#interest{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    width: 380px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(7, 44, 44);
+}
+#cal{
+    position: absolute;
+    height: 8%;
+    width: 45%;
+    background-color: gold;
+    border-radius: 20px;
+}
+#image{
+    position: absolute;
+    height: 10%;
+    top: 13%;
+    left: 12%;
+}
+#repayment{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    background-color: gold;
+    text-decoration: none;
+    /* border-radius: 20px; */
+    border: 0;
+    outline: none;
+    /* padding: 10px; */
+    color: rgb(7, 44, 44);
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+form{
+    margin: 7%;
+}
+input{
+    outline: none;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#mortt{
+    font-size: 0.7em;
+    color: gray;
+}
+#empty{
+    position: absolute;
+    margin: 25%;
+}
+#res{
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    font-size: 1.2em;
+    color: white;
+}
+#com{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    font-size: 0.8em;
+    color: whitesmoke;
+}
