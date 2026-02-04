@@ -106,8 +106,7 @@
               
                   
 
-            // INSERTING INTO TABLE(otp) ON THE DATABASE.
-            // Password encryption using md5 or PASSWORD.
+            // INSERTING INTO TABLE(otpp) ON THE DATABASE.
             $sql = "INSERT INTO otpp (email, otp) VALUES ('$email', '$otp')";
 
             mysqli_query($conn, $sql) or die(mysqli_error($conn));
