@@ -1,148 +1,83 @@
 #parent{
     position: absolute;
+    background: url(image/foreststud.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#overlay{
+    position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
-    background-color: aliceblue;
+    background:  rgba(101, 101, 228, 0.85);
+}
+#child{
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    left: 37%;
+    top: 10%;
+    background-color: white;
+    border-radius: 7px;
 }
 body{
-    font-family: calibri;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#calculator{
+#face{
     position: absolute;
-    height: 65%;
-    width: 40%;
-    top: 20%;
-    left: 15%;
-    background-color: white;
-    border-radius: 20px 0px 0px 20px;
-}
-#result{
-    position: absolute;
-    height: 65%;
-    width: 35%;
-    top: 20%;
-    right: 15%;
-    background-color: rgb(7, 44, 44);
-    border-radius: 0px 20px 0px 20px;
-}
-#clear{
-    position: absolute;
-    color: black;
-    top: 9%;
-    right: 20%;
-}
-#mort{
-    font-size: 1.2em;
-    font-weight: 600;
-    color: rgb(7, 44, 44);
-}
-#mortinput{
-    display: flex;
-    gap: 20px;
-}
-#term{
-    display: flex;
-    flex-direction: column;
-}
-#rate{
-    display: flex;
-    flex-direction: column;
-}
-/* #years{
-    padding: 10px;
-}
-#percent{
-    padding: 10px;
-} */
-#amount{
-    width: 380px;
-}
-#mortType{
-    display: grid;
-    gap: 20px;
-}
-#repay{
-    display: flex;
-    background-color: white;
-    padding: 10px;
-    width: 380px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    outline: none;
-}
-#repay:hover{
-    background-color: rgb(241, 219, 92);
-}
-#interest:hover{
-    background-color: rgb(241, 219, 92);
-}
-#interest{
-    display: flex;
-    background-color: white;
-    padding: 10px;
-    width: 380px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    outline: none;
-    color: rgb(7, 44, 44);
-}
-#cal{
-    position: absolute;
-    height: 8%;
-    width: 45%;
-    background-color: gold;
-    border-radius: 20px;
-}
-#image{
-    position: absolute;
-    height: 10%;
-    top: 13%;
-    left: 12%;
-}
-#repayment{
-    position: absolute;
-    left: 25%;
-    top: 25%;
-    background-color: gold;
-    text-decoration: none;
-    /* border-radius: 20px; */
-    border: 0;
-    outline: none;
-    /* padding: 10px; */
-    color: rgb(7, 44, 44);
-    font-size: 0.9em;
+    font-size: 50px;
+    color: blue;
     font-weight: bolder;
+    left: 25%;
+    bottom: 73%;
 }
-form{
-    margin: 7%;
-}
-input{
-    outline: none;
-    padding: 9px;
-    border-radius: 5px;
-    border: 1px solid gray;
-}
-#mortt{
-    font-size: 0.7em;
-    color: gray;
-}
-#empty{
+#form{
     position: absolute;
-    margin: 25%;
+    left: 7%;
+    top: 25%;
 }
-#res{
-    position: absolute;
-    top: 73%;
-    left: 30%;
-    font-size: 1.2em;
+#email{
+    padding: 12px;
+    width: 320px;
+    border-radius: 3px;
+    border: 1px solid rgb(172, 166, 166);
+    outline: 0;
+}
+#pass{
+    padding: 12px;
+    width: 320px;
+    border-radius: 3px;
+    border: 1px solid rgb(172, 166, 166);
+    outline: 0;
+}
+#log{
+    padding: 12px;
+    width: 345px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
     color: white;
+    background-color: blue;
 }
-#com{
+#create{
+    padding: 12px;
+    width: 345px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: rgb(26, 129, 26);
+    left: 10%;
+}
+a{
+    text-decoration: none;
+    color: rgba(101, 101, 228, 0.85);
+}
+#par{
     position: absolute;
-    top: 80%;
-    left: 20%;
-    font-size: 0.8em;
-    color: whitesmoke;
+    left: 10%;
 }
